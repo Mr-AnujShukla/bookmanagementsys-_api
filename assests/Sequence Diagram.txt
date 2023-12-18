@@ -1,0 +1,10 @@
+title Book Management System
+
+User->Application:Initiates Add a Book action.
+Application->Database:Interact with Database to insert book information.
+Application<--Database:Responds with success or failure.
+Application-->User:Sends the response back to the User
+User->Application:Initiates other CRUD operations.
+Application->Database:Interact with the Datebase to procede the desired request of user.
+Database-->Application:Responds with success or failure.
+Application-->User: Sends the response back to the User

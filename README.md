@@ -98,3 +98,7 @@ URL: http://localhost:8000/book/1
 ```
 - make sure to replace Title and Author name with the respective names as per actual books.
 - By using Postman you can easily perform these CRUD Operations and observe the responses returned.
+
+## Sequence Diagram
+
+![Sequence Diagram.png](assests%2FSequence%20Diagram.png)
