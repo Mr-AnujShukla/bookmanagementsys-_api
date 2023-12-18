@@ -102,3 +102,6 @@ URL: http://localhost:8000/book/1
 ## Sequence Diagram
 
 ![Sequence Diagram.png](assests%2FSequence%20Diagram.png)
+
+## UML Diagram
+![UML Class diagram.png](assests%2FUML%20Class%20diagram.png)
