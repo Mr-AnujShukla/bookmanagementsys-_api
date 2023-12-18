@@ -101,8 +101,9 @@ URL: http://localhost:8000/book/1
 
 ## Sequence Diagram
 
-![Sequence Diagram.png](assests/Sequence%20Diagram.png)
+
+![Sequence diagram](https://drive.google.com/uc?export=view&id=1HSJQBUgQhE98bV1flLF12RiMRDS8XF3c)
+
 
 ## UML Diagram
-![UML Class diagram.png](assests/UML%20Class%20diagram.png)
-![UML Class diagram.jpg](assests%2FUML%20Class%20diagram.jpg)
+![uml](https://drive.google.com/uc?export=view&id=1rNxBkTblBcAVrdWEPPElsnpIjwf41Tfh)
