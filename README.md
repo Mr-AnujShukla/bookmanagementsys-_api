@@ -1,8 +1,8 @@
 # Book Management System
-**Description:** This project is a simple Book Management System built using the GoFr framework with a MySQL database for storing book information.
 
 ### About the Project:-
-It is book management system which has 3 fields book id, book title and book author name, 
+**Description:** This project is a simple Book Management System built using the GoFr framework with a MySQL database for storing book information.
+The system allows users to perform **CRUD**(_Create, Read, Update, Delete_) operations on a collection of books.
 
 Before starting this project make sure your go is up-to-date and intalled in your system.
 if not then you can download it from [here](https://go.dev/).
@@ -70,8 +70,31 @@ curl --location --request PUT 'http://localhost:8000/book/1/NewBookTitle/NewAuth
 ```azure
 curl --location --request DELETE 'http://localhost:8000/book/1'
 ```
-
-
-
-
-
+## To Run Using Postman
+1. Add a Book (Create - POST):
+```azure
+Method: POST
+URL: http://localhost:8000/book/BookTitle/AuthorName
+```
+2. Retrieve a Book (Read - GET) by Id:
+```azure
+Method: GET
+URL: http://localhost:8000/book/1
+```
+3.  Retrieve All Books (Read - GET):
+```azure
+Method: GET
+URL: http://localhost:8000/books
+```
+4. Update a Book (Update - PUT):
+```azure
+Method: PUT
+URL: http://localhost:8000/book/1/NewTitle/NewAuthor
+```
+5. Delete a Book (Delete - DELETE):
+```azure
+Method: DELETE
+URL: http://localhost:8000/book/1
+```
+- make sure to replace Title and Author name with the respective names as per actual books.
+- By using Postman you can easily perform these CRUD Operations and observe the responses returned.
