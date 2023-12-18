@@ -105,3 +105,4 @@ URL: http://localhost:8000/book/1
 
 ## UML Diagram
 ![UML Class diagram.png](assests/UML%20Class%20diagram.png)
+![UML Class diagram.jpg](assests%2FUML%20Class%20diagram.jpg)
